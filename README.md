@@ -21,19 +21,29 @@
 
 
 2.空值處理。類別資料之空值，以眾數取代。數值資料之NA，以中位數取代。
-
-![image](https://user-images.githubusercontent.com/71545529/152315320-38125c13-b56e-41b2-aa1e-f5ffb3097eb1.png)
+![image](https://user-images.githubusercontent.com/71545529/152317984-abf29b83-e18a-427c-99f6-a3e165e3f2ff.png)
 
 
 ![image](https://user-images.githubusercontent.com/71545529/152314681-545a696e-39eb-4373-b2e7-59b21c20ef55.png)
 
 
 #建模後比較個別演算法之準確度，以隨機森林回歸(RandomForestRegressor)之誤差值為最小。
+![image](https://user-images.githubusercontent.com/71545529/152317827-b1672c08-faa7-40fb-afd9-ecb29e3b80dd.png)
+
+
+
+
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/71545529/152315610-0061d549-4fb8-44a3-8158-971f8fb762e8.png)
 
 
 #使用python進行可視化分析:
+
+
 ![image](https://user-images.githubusercontent.com/71545529/152315879-58ca5f59-3dcb-4d8d-be9f-e1efe2938546.png)
 
 高估之數據為「單價元平方公尺」中最高價位者，根據房地產之經濟生態，可能原因為高價位之新建、黃金地段之高集房產賣出利潤高過其他類型之房產。因此房仲或原屋主願意以略低於市場行情之價格售出，在能與買家更輕易達成成交共識之優點下，利潤仍然可觀。 「單價元平方公尺」較低者可能發生於郊外地區大家族間親戚低價轉讓。低估之「單價元平方公尺」數值比較偏向低價位之房產，可能出現在近期地方政府準備開發商場(EX:Outlet、捷運)等郊區、工業區地段。導致以往日之資料訓練之模型低估此地區房價上漲之趨勢。
